@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgres://localhost:5432/g4l_lms_db
+    url: jdbc:postgresql://localhost:5432/g4l_lms_db
     username: g4l_dev
     password: P@ssword1
     driver-class-name: org.postgresql.Driver

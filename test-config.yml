@@ -4,9 +4,10 @@ spring:
     username: g4l_dev
     password: P@ssword1
     driver-class-name: org.postgresql.Driver
+  jpa:
     hibernate:
       ddl-auto: update
-    show-sql: false
+    show-sql: true
 level:
   logging:
     root: DEBUG
